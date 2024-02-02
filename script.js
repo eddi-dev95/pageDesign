@@ -1,6 +1,6 @@
 window.onload = () => {
   const inputApi = document.getElementById("clipboard");
-  const btnPaste = document.getElementById("btn_Paste");
+  const btnPaste = document.getElementById("btnPaste");
 
   if (!inputApi) {
     console.error("El elemento con el ID 'clipboard' no existe.");
