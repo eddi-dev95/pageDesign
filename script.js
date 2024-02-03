@@ -5,7 +5,7 @@ window.onload = () => {
   if (!inputApi) {
     console.error("El elemento con el ID 'clipboard' no existe.");
   } else if (!btnPaste) {
-    console.error("El elemento con el ID 'btn_Paste' no existe.");
+    console.error("El elemento con el ID 'btnPaste' no existe.");
   } else {
     btnPaste.addEventListener("click", () => {
       // Seleccionar el texto del input
