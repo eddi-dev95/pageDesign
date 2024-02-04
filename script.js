@@ -14,7 +14,7 @@ window.onload = () => {
       // Copiar al portapapeles (con comprobación de compatibilidad)
       if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(inputApi.value)
-          .then(() => alert("¡Bien hecho!"));
+          .then(() => alert("\n\t\t¡Bien hecho!"));
           window.close();
           .catch(err => alert("Error al copiar: " + err));
       } else {
